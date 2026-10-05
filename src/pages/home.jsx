@@ -319,9 +319,9 @@ function MovieCard({ movie }) {
             z-10
             rounded-full
             bg-[#2536a8]
-            px-[7px]
-            py-[3px]
-            text-[8px]
+            px-[14px]
+            py-[8px]
+            text-[12px]
             font-medium
             leading-[7px]
             text-white
@@ -339,8 +339,8 @@ function MovieCard({ movie }) {
             top-0
             z-10
             flex
-            h-[27px]
-            w-[20px]
+            h-[45px]
+            w-[35px]
             flex-col
             items-center
             justify-center
@@ -349,11 +349,11 @@ function MovieCard({ movie }) {
             text-white
             "
         >
-            <span className="text-[7px] font-medium leading-[8px]">
+            <span className="text-[14px] font-medium leading-[18px]">
             Top
             </span>
 
-            <span className="text-[9px] font-bold leading-[14px]">
+            <span className="text-[13px] font-bold leading-[16px]">
             10
             </span>
         </span>
@@ -1047,7 +1047,7 @@ function Home() {
         {/* TRENDING */}
 
         <MovieSection
-          title="Film Trending"
+          title="Trending Film dan Series Hari Ini"
           movies={trending}
         />
 
